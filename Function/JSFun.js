@@ -90,3 +90,24 @@ function loginUserMessage(username = "sam"){
 }
 
 console.log(loginUserMessage("Anup"))
+
+function loginUserMessage(username = "anup"){
+    if(username){
+        console.log("Please enter a username");
+        return
+    }
+    return '${username} just logged in'
+    }
+
+
+function greet() {   //Basic Function Declaration
+  console.log("Hello JavaScript!");
+}
+
+greet();   // calling the function
+
+
+function aman() {
+    console.log("Hello mere Bhai");
+}
+aman();
